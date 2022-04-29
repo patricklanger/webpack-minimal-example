@@ -7,6 +7,6 @@ root.render(<App />);
 
 document.addEventListener("DOMContentLoaded", function(event) {
     const element = document.createElement('h1')
-    element.innerHTML = "Hello Worlds"
+    element.innerHTML = "And I am vanillaJS!"
     document.body.appendChild(element)
 })
