@@ -2,10 +2,11 @@
 
 Including React in an existing HTML, CSS, VanillaJS project with Webpack and Babel.
 
+---
 
 ### Commands
 
----
+
 __Run dev-mode with:__
 `npm run dev`
 
@@ -13,7 +14,7 @@ The command is equivalent to `webpack-dev-server --mode development --open`. See
 
 changes will render automatically by saving. Wont save any dist files. 
 
----
+
 __Run prod-mode with:__
 `npm run start`
 
@@ -33,3 +34,6 @@ changes wont render automatically by saving. Will create minimized files in /dis
 - babel.config.json -> Babel stuff
 - __server.js__ -> simple express server
 - __webpack.config.js__ -> Defines which file types will process by which loader. Webpack has a lot of loaders for different files and needs. You should try to use as few as possible.  
+
+
+---
