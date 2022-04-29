@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('assets/Roboto/Roboto-Thin.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.App {
+    margin: 1rem;
+    color: red;
+    font-family: 'MyFont';
+    background: url('assets/recyclehero-alster.jpg');
+}
