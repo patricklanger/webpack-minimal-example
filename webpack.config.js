@@ -2,11 +2,11 @@ const path = require("path");
 
 module.exports = {
     entry: [
-        './src/index.js',
+        './src/index.js', // referenced files will be included
         './src/index.css'
     ],
     output: {
-        path: __dirname + '/dist',
+        path: __dirname + '/dist', 
         publicPath: '/dist/',
         filename: 'bundle.js'
     },
